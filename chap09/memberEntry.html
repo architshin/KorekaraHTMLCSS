@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<title>フォーム関連タグ</title>
+	</head>
+	<body>
+		<section>
+			<h1>会員登録</h1>
+			<p>
+				以下の情報を入力し、確認ボタンをクリックしてください。
+			</p>
+			<form action="#" method="POST">
+				<label for="memberName">
+					お名前:&nbsp;
+					<input type="text" name="memberName" id="memberName">
+				</label><br>
+				<label for="memberEmail">
+					メールアドレス:&nbsp;
+					<input type="email" name="memberEmail" id="memberEmail">
+				</label><br>
+				<label for="memberPassword">
+					パスワード:&nbsp;
+					<input type="password" name="memberPassword" id="memberPassword">
+				</label><br>
+				性別:&nbsp;
+				<label for="memberSexMail">
+					<input type="radio" name="memberSex" id="memberSexMail" value="1" checked>
+					男
+				</label>
+				<label for="memberSexFemail">
+					<input type="radio" name="memberSex" id="memberSexFemail" value="0">
+					女
+				</label><br>
+				生年月日:&nbsp;
+				<select name="memberBirthYear" id="memberBirthYear">
+					<option value="1989">1989</option>
+					<option value="1990" selected>1990</option>
+					<option value="1991">1991</option>
+				</select>年
+				<select name="memberBirthMonth" id="memberBirthMonth">
+					<option value="1" selected>1</option>
+					<option value="2">2</option>
+				</select>月
+				<select name="memberBirthDay" id="memberBirthDay">
+						<option value="1" selected>1</option>
+						<option value="2">2</option>
+				</select>日<br>
+				希望メールマガジン:&nbsp;
+				<label for="magazineForDesigner">
+					<input type="checkbox" name="magazine" id="magazineForDesigner" value="1">
+					デザイナ向け
+				</label>
+				<label for="magazineForProgrammer">
+					<input type="checkbox" name="magazine" id="magazineForProgrammer" value="2">
+					プログラマ向け
+				</label>
+				<label for="magazineForConsultant">
+					<input type="checkbox" name="magazine" id="magazineForConsultant" value="3">
+					コンサルタント向け
+				</label><br>
+				<button type="submit">確認</button>
+			</form>
+		</section>
+	</body>
+</html>
