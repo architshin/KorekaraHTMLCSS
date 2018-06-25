@@ -16,3 +16,14 @@
 .font18 {
 	font-size: 18pt;
 }
+
+/*----- idAndClassSelector2.html用 -----*/
+#pageHeader h1 {
+	border-bottom: 2px blue solid;
+}
+#pageHeader p {
+	text-align: center;
+}
+article > h1 {
+	text-align: center;
+}
