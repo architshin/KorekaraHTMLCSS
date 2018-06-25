@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+/*----- idAndClassSelector.html用 -----*/
+#pageHeader {
+	background-color: aliceblue;
+}
+#pageHeaderH1 {
+	border-bottom: 2px blue solid;
+}
+#pageHeaderContent {
+	text-align: center;
+}
+.redText {
+	color: red;
+}
+.font18 {
+	font-size: 18pt;
+}
