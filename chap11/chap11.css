@@ -43,3 +43,11 @@ a:hover {
 p::first-line {
 	color: blue;
 }
+
+/*----- listTagList.html用 -----*/
+ul > li {
+	list-style: square;
+}
+ul ol li {
+	list-style: lower-roman;
+}
