@@ -51,3 +51,11 @@ ul > li {
 ul ol li {
 	list-style: lower-roman;
 }
+
+/*----- memberListWithHeader.html用 -----*/
+table {
+	border-collapse: collapse;
+}
+td, th {
+	border: 1px solid black;
+}
