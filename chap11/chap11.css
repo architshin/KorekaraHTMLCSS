@@ -27,3 +27,11 @@
 article > h1 {
 	text-align: center;
 }
+
+/*----- siblingCombinator.html用 -----*/
+#sectionHeader + p {
+	color: red;
+}
+#sectionHeader ~ p {
+	background-color: yellow;
+}
