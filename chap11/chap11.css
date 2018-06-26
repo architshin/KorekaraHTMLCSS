@@ -59,3 +59,8 @@ table {
 td, th {
 	border: 1px solid black;
 }
+
+/*----- memberListWithHeader2.html用 -----*/
+.colBgDarkgrey {
+	background-color: darkgrey;
+}
