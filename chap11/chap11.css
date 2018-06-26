@@ -35,3 +35,11 @@ article > h1 {
 #sectionHeader ~ p {
 	background-color: yellow;
 }
+
+/*----- pseudoSelector.html用 -----*/
+a:hover {
+	color: red;
+}
+p::first-line {
+	color: blue;
+}
