@@ -6,6 +6,8 @@ section {
 section h1 {
 	border: solid 1px red;
 	background-color: white;
+	width: 80%;
+	height: 100px;
 }
 section p {
 	border: solid 1px orange;
