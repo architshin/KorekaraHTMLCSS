@@ -1,0 +1,13 @@
+@charset "utf-8";
+section {
+	border: solid 1px blue;
+	background-color: lightskyblue;
+}
+section h1 {
+	border: solid 1px red;
+	background-color: white;
+}
+section p {
+	border: solid 1px orange;
+	background-color: white;
+}
