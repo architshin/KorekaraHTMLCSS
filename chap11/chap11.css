@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+/*----- idAndClassSelector.html用 -----*/
+#pageHeader {
+	background-color: aliceblue;
+}
+#pageHeaderH1 {
+	border-bottom: 2px blue solid;
+}
+#pageHeaderContent {
+	text-align: center;
+}
+.redText {
+	color: red;
+}
+.font18 {
+	font-size: 18pt;
+}
+
+/*----- idAndClassSelector2.html用 -----*/
+#pageHeader h1 {
+	border-bottom: 2px blue solid;
+}
+#pageHeader p {
+	text-align: center;
+}
+article > h1 {
+	text-align: center;
+}
+
+/*----- siblingCombinator.html用 -----*/
+#sectionHeader + p {
+	color: red;
+}
+#sectionHeader ~ p {
+	background-color: yellow;
+}
+
+/*----- pseudoSelector.html用 -----*/
+a:hover {
+	color: red;
+}
+p::first-line {
+	color: blue;
+}
+
+/*----- listTagList.html用 -----*/
+ul > li {
+	list-style: square;
+}
+ul ol li {
+	list-style: lower-roman;
+}
+
+/*----- memberListWithHeader.html用 -----*/
+table {
+	border-collapse: collapse;
+}
+td, th {
+	border: 1px solid black;
+}
+
+/*----- memberListWithHeader2.html用 -----*/
+.colBgDarkgrey {
+	background-color: darkgrey;
+}
