@@ -1,0 +1,23 @@
+#outerBox {
+	background-color: aqua;
+	width: 440px;
+}
+#box1 {
+	width: 200px;
+	margin: 10px;
+	float: left;
+}
+#box2 {
+	width: 200px;
+	margin: 10px;
+	float: left;
+}
+#box3 {
+	border: 1px solid red;
+	background-color: lavender;
+	width: 440px;
+	/* clear: left; */
+}
+.clearBox {
+	clear: both;
+}
