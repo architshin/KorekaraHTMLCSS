@@ -13,3 +13,8 @@ section p {
 	border: solid 1px orange;
 	background-color: white;
 }
+#threeP {
+	border: solid 1px brown;
+	background-color: khaki;
+	width: 80%;
+}
