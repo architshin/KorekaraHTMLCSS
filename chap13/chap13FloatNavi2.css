@@ -13,11 +13,11 @@ header nav li {
 	list-style: none;
 	background-color: turquoise;
 	text-align: center;
-	margin: 0px 2px 2px;
 	padding: 10px;
 	box-sizing: border-box;
-	width: 49%;
 	float: left;
+	margin: 0px 2px 2px;
+	width: 49%;
 }
 header nav li a {
 	color: white;
