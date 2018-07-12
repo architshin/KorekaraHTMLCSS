@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<title>ダッシュボード</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="main.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<header>
+			<h1>これから学ぶシステム画面</h1>
+			<nav>
+				<ul>
+					<li><a href="/websamples/chap14/dashboard.html">ダッシュボード</a></li>
+					<li><a href="/websamples/chap14/memberList.html">会員管理</a></li>
+					<li><a href="#">受注管理</a></li>
+					<li><a href="#">商品管理</a></li>
+					<li><a href="#">マスター管理</a></li>
+					<li><a href="#">ログイン情報</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<h2>会員管理</h2>
+			<section>
+				<h3>会員新規登録</h3>
+				<p>
+					必要事項を入力して、登録ボタンをクリックしてください。<br>
+					なお、会員IDはシステム側で自動採番します。
+				</p>
+				<form action="/websamples/chap14/memberList.html" method="POST">
+					<table class="vTable">
+						<tbody>
+							<tr>
+								<th><label for="memberNameLast">会員姓</label></th>
+								<td>
+									<input type="text" name"memberNameLast" id="memberNameLast" placeholder="例)柴田" required>
+								</td>
+							</tr>
+							<tr>
+								<th><label for="memberNameFirst">会員名</label></th>
+								<td>
+									<input type="text" name"memberNameFirst" id="memberNameFirst" placeholder="例)愛理" required>
+								</td>
+							</tr>
+							<tr>
+								<th><label for="memberNameLastKana">会員姓ふりがな</label></th>
+								<td>
+									<input type="text" name"memberNameLastKana" id="memberNameLastKana" placeholder="例)しばた" required>
+								</td>
+							</tr>
+							<tr>
+								<th><label for="memberNameFirstKana">会員名ふりがな</label></th>
+								<td>
+									<input type="text" name"memberNameFirstKana" id="memberNameFirstKana" placeholder="例)あいり" required>
+								</td>
+							</tr>
+							<tr>
+								<th><label for="memberTel">電話番号</label></th>
+								<td>
+									<input type="tel" name"memberTel" id="memberTel" placeholder="例)09045785547" required>
+								</td>
+							</tr>
+							<tr>
+								<th>性別</th>
+								<td>
+									<label for="memberSexFemale"><input type="radio" name="memberSex" id="memberSexFemale" value="0" checked>女</label>
+									<label for="memberSexMale"><input type="radio" name="memberSex" id="memberSexMale" value="1">男</label>
+								</td>
+							</tr>
+							<tr>
+								<th>会員種別</th>
+								<td>
+									<select name="memberType" id="memberType" required>
+										<option value="">選択してください</option>
+										<option value="1">通常</option>
+										<option value="2">特別</option>
+										<option value="3">優良</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td colspan="2" class="textAlignCenter">
+									<button type="submit">登録</button>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</form>
+			</section>
+		</main>
+	</body>
+</html>

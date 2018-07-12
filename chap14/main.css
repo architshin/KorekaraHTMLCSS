@@ -1,0 +1,69 @@
+table {
+	border-collapse: collapse;
+}
+td, th {
+	border: 1px solid black;
+}
+header {
+	background-color: aliceblue;
+}
+header h1 {
+	padding: 5px 15px 0px;
+	margin: 0px;
+	color: darkgrey;
+}
+header nav {
+	padding: 5px 15px 15px;
+	margin: 0px;
+}
+header nav ul {
+	margin: 0px auto;
+	padding: 0px;
+	box-sizing: border-box;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+header nav li {
+	list-style: none;
+	background-color: turquoise;
+	text-align: center;
+	padding: 10px;
+	box-sizing: border-box;
+	margin: 2px;
+	flex: 1 0 140px;
+}
+header nav li a {
+	color: white;
+	text-decoration-line: none;
+}
+main {
+	background-color: gainsboro;
+	padding: 15px;
+}
+main h2 {
+	margin: 0px;
+	background: white;
+	padding: 5px;
+	font-size: 16pt;
+	color: darkgray;
+	border-bottom: solid 2px darkgray;
+}
+main section h3 {
+	margin: 10px 0px;
+	padding-left: 5px;
+	border-left: solid 5px black;
+	border-bottom: solid 2px black;
+}
+main section {
+	background: white;
+	padding: 15px;
+	margin: 10px 0px;
+}
+.vTable th {
+	text-align: left
+}
+.textAlignCenter {
+	text-align: center
+}
