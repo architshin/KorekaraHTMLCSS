@@ -1,0 +1,38 @@
+header nav {
+	background-color: aliceblue;
+	padding: 15px;
+	margin: 0px;
+}
+header nav ul {
+	margin: 0px auto;
+	padding: 0px;
+	box-sizing: border-box;
+	width: 100%;
+}
+header nav li {
+	list-style: none;
+	background-color: turquoise;
+	text-align: center;
+	padding: 10px;
+	box-sizing: border-box;
+	float: left;
+	margin: 0px 2px 2px;
+	width: 49%;
+}
+header nav li a {
+	color: white;
+	text-decoration-line: none;
+}
+main section {
+	background-color: gainsboro;
+	padding: 15px;
+}
+main section h2 {
+	margin: 0px;
+}
+.clearfix::after {
+	content: "";
+	display: block;
+	visibility: hidden;
+	clear: both;
+}

@@ -1,0 +1,65 @@
+/*navボックスのスタイル設定*/
+header nav {
+	/*背景色を設定*/
+	background-color: aliceblue;
+	/*内余白を15pxに設定*/
+	padding: 15px;
+	/*外余白を0pxに設定*/
+	margin: 0px;
+}
+/*ナビゲーションのulボックスのスタイル設定*/
+header nav ul {
+	/*上下外余白を0pxに設定しボックスをセンタリング*/
+	margin: 0px auto;
+	/*内余白を0pxに設定*/
+	padding: 0px;
+	/*ボックスサイズをボーダー基準に設定*/
+	box-sizing: border-box;
+	/*ボックス幅を100%に設定*/
+	width: 100%;
+}
+/*ナビゲーションのliボックスのスタイル設定*/
+header nav li {
+	/*liの装飾を無に設定*/
+	list-style: none;
+	/*背景色を設定*/
+	background-color: turquoise;
+	/*中の文字列をセンタリング*/
+	text-align: center;
+	/*内余白を10pxに設定*/
+	padding: 10px;
+	/*ボックスサイズをボーダー基準に設定*/
+	box-sizing: border-box;
+	/*フロートを左に設定*/
+	float: left;
+	/*上下外余白を0pxに左右余白を2pxに設定*/
+	margin: 0px 2px;
+	/*ボックス幅を16%に設定*/
+	width: 16%;
+}
+/*liボックス内のリンクのスタイル設定*/
+header nav li a {
+	/*文字色を白に設定*/
+	color: white;
+	/*リンクのアンダーライン装飾をなしに設定*/
+	text-decoration-line: none;
+}
+/*main内のsectionボックスのスタイル設定*/
+main section {
+	/*背景色を設定*/
+	background-color: gainsboro;
+	/*内余白を15pxに設定*/
+	padding: 15px;
+}
+/*section内のh2ボックスのスタイル設定*/
+main section h2 {
+	/*外余白を0pxに設定*/
+	margin: 0px;
+}
+/*クリアフィックス*/
+.clearfix::after {
+	content: "";
+	display: block;
+	visibility: hidden;
+	clear: both;
+}
