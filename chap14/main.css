@@ -132,3 +132,46 @@ td, th {
 .submitP {
 	text-align: center;
 }
+/*idがbreadcrumbボックス(パンくずリストボックス)のスタイル設定*/
+#breadcrumb {
+	/*背景色を設定*/
+	background:lavender;
+}
+/*パンくずリスト内のulボックスのスタイル設定*/
+#breadcrumb ul {
+	/*外余白を0pxに設定*/
+	margin: 0px;
+	/*内余白の上下を5px、左右を15pxに設定*/
+	padding: 5px 15px;
+}
+/*パンくずリスト内のliボックスのスタイル設定*/
+#breadcrumb li {
+	/*インラインとして表示するように設定*/
+	display: inline;
+	/*リストのスタイルを無効に設定*/
+	list-style: none;
+	/*太字に設定*/
+	font-weight: bold;
+}
+/*パンくずリスト内のliボックスの後に「>」を表示するように設定*/
+#breadcrumb li::after{
+	content: ">";
+	padding: 0 3px;
+	color: darkgrey;
+}
+/*一番最後のliボックスの後には「>」を表示しないように設定*/
+#breadcrumb li:last-child::after{
+	content: "";
+}
+/*liボックス内のリンクのスタイル設定*/
+#breadcrumb li a {
+	/*文字装飾を無効に設定*/
+	text-decoration: none;
+	/*文字色を設定*/
+	color: darkgrey;
+}
+/*liボックス内のリンクにマウスが重なった時のスタイル設定*/
+#breadcrumb li a:hover {
+	/*文字色を設定*/
+	color: coral;
+}
