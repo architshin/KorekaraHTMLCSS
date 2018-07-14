@@ -29,63 +29,45 @@
 					なお、会員IDはシステム側で自動採番します。
 				</p>
 				<form action="/websamples/chap14/memberList.html" method="POST">
-					<table class="vTable">
-						<tbody>
-							<tr>
-								<th><label for="memberNameLast">会員姓</label></th>
-								<td>
-									<input type="text" name"memberNameLast" id="memberNameLast" placeholder="例)柴田" required>
-								</td>
-							</tr>
-							<tr>
-								<th><label for="memberNameFirst">会員名</label></th>
-								<td>
-									<input type="text" name"memberNameFirst" id="memberNameFirst" placeholder="例)愛理" required>
-								</td>
-							</tr>
-							<tr>
-								<th><label for="memberNameLastKana">会員姓ふりがな</label></th>
-								<td>
-									<input type="text" name"memberNameLastKana" id="memberNameLastKana" placeholder="例)しばた" required>
-								</td>
-							</tr>
-							<tr>
-								<th><label for="memberNameFirstKana">会員名ふりがな</label></th>
-								<td>
-									<input type="text" name"memberNameFirstKana" id="memberNameFirstKana" placeholder="例)あいり" required>
-								</td>
-							</tr>
-							<tr>
-								<th><label for="memberTel">電話番号</label></th>
-								<td>
-									<input type="tel" name"memberTel" id="memberTel" placeholder="例)09045785547" required>
-								</td>
-							</tr>
-							<tr>
-								<th>性別</th>
-								<td>
-									<label for="memberSexFemale"><input type="radio" name="memberSex" id="memberSexFemale" value="0" checked>女</label>
-									<label for="memberSexMale"><input type="radio" name="memberSex" id="memberSexMale" value="1">男</label>
-								</td>
-							</tr>
-							<tr>
-								<th>会員種別</th>
-								<td>
-									<select name="memberType" id="memberType" required>
-										<option value="">選択してください</option>
-										<option value="1">通常</option>
-										<option value="2">特別</option>
-										<option value="3">優良</option>
-									</select>
-								</td>
-							</tr>
-							<tr>
-								<td colspan="2" class="textAlignCenter">
-									<button type="submit">登録</button>
-								</td>
-							</tr>
-						</tbody>
-					</table>
+					<dl class="detail">
+						<dt><label for="memberNameLast">会員姓</label></dt>
+						<dd>
+							<input type="text" name"memberNameLast" id="memberNameLast" placeholder="例)柴田" required>
+						</dd>
+						<dt><label for="memberNameFirst">会員名</label></dt>
+						<dd>
+							<input type="text" name"memberNameFirst" id="memberNameFirst" placeholder="例)愛理" required>
+						</dd>
+						<dt><label for="memberNameLastKana">会員姓ふりがな</label></dt>
+						<dd>
+							<input type="text" name"memberNameLastKana" id="memberNameLastKana" placeholder="例)しばた" required>
+						</dd>
+						<dt><label for="memberNameFirstKana">会員名ふりがな</label></dt>
+						<dd>
+							<input type="text" name"memberNameFirstKana" id="memberNameFirstKana" placeholder="例)あいり" required>
+						</dd>
+						<dt><label for="memberTel">電話番号</label></dt>
+						<dd>
+							<input type="tel" name"memberTel" id="memberTel" placeholder="例)09045785547" required>
+						</dd>
+						<dt>性別</dt>
+						<dd>
+							<label for="memberSexFemale"><input type="radio" name="memberSex" id="memberSexFemale" value="0" checked>女</label>
+							<label for="memberSexMale"><input type="radio" name="memberSex" id="memberSexMale" value="1">男</label>
+						</dd>
+						<dt>会員種類</dt>
+						<dd>
+							<select name="memberType" id="memberType" required>
+								<option value="">選択してください</option>
+								<option value="1">通常</option>
+								<option value="2">特別</option>
+								<option value="3">優良</option>
+							</select>
+						</dd>
+					</dl>
+					<p class="submitP">
+						<button type="submit">登録</button>
+					</p>
 				</form>
 			</section>
 		</main>
