@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<title>会員リスト&nbsp;|&nbsp;会員管理</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="main.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<header>
+			<h1>これから学ぶシステム画面</h1>
+			<nav>
+				<ul>
+					<li><a href="/websamples/chap14/dashboard.html">ダッシュボード</a></li>
+					<li><a href="/websamples/chap14/memberList.html">会員管理</a></li>
+					<li><a href="#">受注管理</a></li>
+					<li><a href="#">商品管理</a></li>
+					<li><a href="#">マスター管理</a></li>
+					<li><a href="#">ログイン情報</a></li>
+				</ul>
+			</nav>
+		</header>
+		<nav id="breadcrumb">
+			<ul>
+				<li><a href="/websamples/chap14/dashboard.html">ダッシュボード</a></li>
+				<li>会員リスト</li>
+			</ul>
+		</nav>
+		<main>
+			<h2>会員管理</h2>
+			<section>
+				<h3>会員リスト</h3>
+				<table>
+					<thead>
+						<tr>
+							<th>会員ID</th>
+							<th>会員氏名</th>
+							<th>会員種類</th>
+							<th>電話番号</th>
+							<th>操作</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>4153587</td>
+							<td>田中麻衣</td>
+							<td>通常</td>
+							<td>09012345678</td>
+							<td>
+								<form action="/websamples/chap14/memberDetail.html" method="GET">
+									<input type="hidden" name="memberId" value="4153587">
+									<button type="submit">詳細表示</button>
+								</form>
+							</td>
+						</tr>
+						<tr>
+							<td>5644124</td>
+							<td>中田忠義</td>
+							<td>特別</td>
+							<td>09098745632</td>
+							<td>
+								<form action="/websamples/chap14/memberDetail.html" method="GET">
+									<input type="hidden" name="memberId" value="5644124">
+									<button type="submit">詳細表示</button>
+								</form>
+							</td>
+						</tr>
+						<tr>
+							<td>3354644</td>
+							<td>村田裕子</td>
+							<td>通常</td>
+							<td>08023456789</td>
+							<td>
+								<form action="/websamples/chap14/memberDetail.html" method="GET">
+									<input type="hidden" name="memberId" value="3354644">
+									<button type="submit">詳細表示</button>
+								</form>
+							</td>
+						</tr>
+						<tr>
+							<td>1452246</td>
+							<td>石田悦子</td>
+							<td>通常</td>
+							<td>07034567891</td>
+							<td>
+								<form action="/websamples/chap14/memberDetail.html" method="GET">
+									<input type="hidden" name="memberId" value="1452246">
+									<button type="submit">詳細表示</button>
+								</form>
+							</td>
+						</tr>
+						<tr>
+							<td>2457712</td>
+							<td>坂東由紀</td>
+							<td>特別</td>
+							<td>09045678923</td>
+							<td>
+								<form action="/websamples/chap14/memberDetail.html" method="GET">
+									<input type="hidden" name="memberId" value="2457712">
+									<button type="submit">詳細表示</button>
+								</form>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+			<section>
+				<h3>会員新規登録</h3>
+				<p>新規登録は<a href="/websamples/chap14/memberAdd.html">こちら</a>から行ってください。</p>
+			</section>
+		</main>
+	</body>
+</html>
