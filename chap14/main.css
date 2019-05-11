@@ -105,7 +105,7 @@ td, th {
 	/*フレックスボックスの折り返しを設定*/
 	flex-wrap: wrap;
 }
-/*dtailクラス内のdlとdtボックスのスタイル設定*/
+/*dtailクラス内のdtとddボックスのスタイル設定*/
 .detail dt, dd {
 	/*外余白を0pxに設定*/
 	margin: 0px;
